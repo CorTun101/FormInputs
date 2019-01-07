@@ -14,3 +14,8 @@ def process_inputs():
     freeform = request.form.get('input_freeform', '')
     return render_template("main_page.html", input_data=dropdown,
                            output="You're a wizard %s." % name)
+
+#XMEN XMEN  MARVEL'S XMEN.
+#A person types in thier name, and the ability(s) they want in to be in the xmen
+#Some powers describtions will have a key word which will also include a response of its own
+#for example: if a person includes transform and/or clone
